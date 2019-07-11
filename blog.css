@@ -1,0 +1,106 @@
+/*公共样式*/
+* {
+    font-family: ".PingFang SC", "Microsoft YaHei", serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+/*#home {*/
+    /*background-color: wheat;*/
+/*}*/
+
+/*左边栏*/
+.left {
+    width: 20%;
+    /*background-color: wheat;*/
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header-img {
+    height: 128px;
+    width: 128px;
+    border: white;
+    border: solid;
+    border: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.blog-name {
+    font-size: 20px;
+    color: dimgrey;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    }
+.my_info {
+    font-size: 14px;
+    text-align: left;
+    color: slategrey;
+    margin: 15px 15px;
+    border: slategrey solid 2px;
+}
+.blog_say {
+    font-size: 14px;
+    color: slategrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#p1 {
+    text-indent: 56px;
+}
+#p2 {
+    text-indent: 28px;
+    padding-top: 15px;
+}
+#p3 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+#p4 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+#p5 {
+    text-indent: 28px;
+    padding-top: 15px;
+}
+#p6 {
+    text-indent: 56px;
+    padding-top: 15px;
+}
+.cnblog {
+    margin-left: 50%;
+}
+a:hover {
+    color: slategrey;
+}
+ul {
+    list-style-type: none;
+}
+/*右边栏*/
+.right {
+    width: 80%;
+    /*background-color: wheat;*/
+    height: 1000px;
+    float: right;
+    border: slategrey solid 2px;
+}
+#copyright {
+    color: #999;
+    text-align: center;
+    font: 0.9em/1.6 "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-shadow: 0 0 1px #fff;
+    margin: 1000px 50px 50px;
+}
+#h1 {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 30px;
+}
+#h2,h3,h4,h5 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
